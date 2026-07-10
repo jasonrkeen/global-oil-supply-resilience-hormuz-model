@@ -1,0 +1,10 @@
+source_id,metric,provider,url,frequency,access,model_use,limitation
+EIA_STOCKS_US_COMMERCIAL,US commercial crude oil stocks,U.S. EIA,https://www.eia.gov/dnav/pet/pet_stoc_wstk_dcu_nus_w.htm,weekly,EIA API,context and warning indicator,US only and reported with lag
+EIA_STOCKS_US_SPR,US Strategic Petroleum Reserve stocks,U.S. EIA,https://www.eia.gov/dnav/pet/pet_stoc_wstk_dcu_nus_w.htm,weekly,EIA API,US reserve context,does not equal maximum drawable volume
+EIA_STOCKS_GASOLINE,US total motor gasoline stocks,U.S. EIA,https://www.eia.gov/dnav/pet/pet_stoc_wstk_dcu_nus_w.htm,weekly,EIA API,refined-product stress context,US only
+EIA_STOCKS_DISTILLATE,US distillate fuel oil stocks,U.S. EIA,https://www.eia.gov/dnav/pet/pet_stoc_wstk_dcu_nus_w.htm,weekly,EIA API,diesel stress context,US only
+EIA_BRENT,Europe Brent spot price,U.S. EIA,https://www.eia.gov/dnav/pet/pet_pri_spt_s1_d.htm,daily,EIA API,market context,spot observation not a forecast
+EIA_STEO,Global oil balance forecast,U.S. EIA,https://www.eia.gov/outlooks/steo/report/global_oil.php,monthly,manual validation,global demand and inventory assumptions,forecast subject to revision
+EIA_ENERGY_SECURITY,Strategic inventories and chokepoint flows,U.S. EIA,https://www.eia.gov/outlooks/steo/report/energysecurity/article.php,periodic,manual validation,strategic stock and Hormuz baselines,some inputs derived from commercial tracking
+IEA_HORMUZ,Disruption and emergency response,IEA,https://www.iea.org/about/oil-security-and-emergency-response/strait-of-hormuz,irregular,manual validation,scenario calibration,full underlying data may be restricted
+EIA_WEEKLY_OPERATIONS,US production refining trade and product supplied,U.S. EIA,https://www.eia.gov/petroleum/supply/weekly/,weekly,EIA API,system resilience and days-of-supply metrics,weekly estimates subject to revision

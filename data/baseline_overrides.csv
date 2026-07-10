@@ -1,0 +1,7 @@
+parameter,value,unit,as_of,source_id,confidence,status,notes
+pre_crisis_hormuz_mbd,20.0,million barrels per day,2025-12-31,IEA_HORMUZ,high,observed_baseline,Pre-disruption reference flow
+global_demand_mbd,104.0,million barrels per day,2026-07-09,EIA_STEO,medium,planning_assumption,Replace when the newest STEO table is ingested
+accessible_inventory_mmb,4250,million barrels,2026-07-09,EIA_STEO,low,analyst_assumption,Global accessible inventory is not directly observable
+minimum_operating_inventory_mmb,2250,million barrels,2026-07-09,EIA_STEO,low,analyst_assumption,Analytical floor rather than a reported stock value
+base_brent_usd,86,USD per barrel,2026-07-09,EIA_BRENT,medium,planning_assumption,Live snapshot is reported separately and does not silently alter scenarios
+

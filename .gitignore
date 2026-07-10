@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+output/pdf/*
+!output/pdf/.gitkeep
+tmp/
+
+# Streamlit and secrets
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+
+# Windows
+Thumbs.db

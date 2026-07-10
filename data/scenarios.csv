@@ -1,0 +1,7 @@
+scenario,hormuz_flow_mbd,bypass_mbd,other_supply_response_mbd,demand_reduction_pct,strategic_release_mbd,release_days,risk_premium_usd
+restricted_passage,10.0,3.5,1.0,0.5,2.0,120,12
+near_closure,2.7,3.5,1.5,1.5,3.3,120,28
+effective_closure,0.5,3.0,2.0,3.0,3.3,120,45
+closure_plus_outages,0.5,2.2,1.5,4.0,3.3,120,65
+gradual_reopening,2.7,3.5,1.5,1.5,3.3,120,30
+
